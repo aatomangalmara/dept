@@ -12,6 +12,9 @@ const did_ast = [
     id: "did/0",
     name: "pant",
     price: 90,
+    get assets_src() {
+      return `<img src="./assets_img/img99.jpg" alt="${this.name}">`;
+    },
   },
   {
     id: 13,
